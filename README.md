@@ -1,3 +1,9 @@
+按 Win + X 键选择 Windows PowerShell (管理员)
+注：Win 键就是键盘左下角 CTRL 键右边那个键
+
+按右键粘贴这行代码后回车即可：
+reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\WindowsUpdate\UX\Settings" /v FlightSettingsMaxPauseDays /t reg_dword /d 10000 /f
+
 # Windows Update Disabler
 
 ![](https://i.imgur.com/pGsWaOt.png 'Something went wrong')
